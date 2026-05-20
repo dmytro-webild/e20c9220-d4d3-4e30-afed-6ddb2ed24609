@@ -7,7 +7,6 @@ import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SplitAbout from '@/components/sections/about/SplitAbout';
 import { Award, Flame, Smile } from "lucide-react";
 
@@ -33,8 +32,6 @@ export default function LandingPage() {
           name: "Início",          id: "hero"},
         {
           name: "Essência",          id: "about"},
-        {
-          name: "Cardápio",          id: "product"},
         {
           name: "Contato",          id: "contact"},
       ]}
@@ -85,31 +82,6 @@ export default function LandingPage() {
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/nice-cupcakes-inside-oven_23-2147758422.jpg"
       mediaAnimation="blur-reveal"
-    />
-  </div>
-
-  <div id="product" data-section="product">
-      <ProductCardOne
-      animationType="slide-up"
-      textboxLayout="default"
-      gridVariant="three-columns-all-equal-width"
-      useInvertedBackground={false}
-      products={[
-        {
-          id: "1",          name: "X-Tudo",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-hamburgers-arrangement_23-2148614059.jpg"},
-        {
-          id: "2",          name: "X-Bacon",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/american-burger-with-chicken-bacon-homemade-barbecue-sauce_2829-13871.jpg"},
-        {
-          id: "3",          name: "X-Salada",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-burger-assortment_23-2148868222.jpg"},
-        {
-          id: "4",          name: "X-Tudo Especial",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/freshly-baked-burger-bun-with-sesame-sprinkles_140725-8727.jpg"},
-        {
-          id: "5",          name: "X-Bacon Premium",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-ready-be-served-burger-with-cutlery_23-2148290640.jpg"},
-        {
-          id: "6",          name: "X-Salada Fresco",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-creative-arrangement-with-hamburger-menu_23-2148614121.jpg"},
-      ]}
-      title="Nosso Cardápio"
-      description="Consulte o valor atualizado no WhatsApp"
     />
   </div>
 

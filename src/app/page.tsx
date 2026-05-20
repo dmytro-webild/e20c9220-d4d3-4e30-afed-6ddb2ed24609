@@ -30,21 +30,13 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Início",
-          id: "hero",
-        },
+          name: "Início",          id: "hero"},
         {
-          name: "Essência",
-          id: "about",
-        },
+          name: "Essência",          id: "about"},
         {
-          name: "Cardápio",
-          id: "product",
-        },
+          name: "Cardápio",          id: "product"},
         {
-          name: "Contato",
-          id: "contact",
-        },
+          name: "Contato",          id: "contact"},
       ]}
       brandName="TEKIM"
     />
@@ -53,41 +45,26 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardCarousel
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="O sabor tradicional que conquistou Piumhi."
       description="Lanches de chapa bem recheados, ingredientes selecionados e aquele sabor marcante que faz parte da cidade há anos."
       buttons={[
         {
-          text: "Faça seu Pedido Agora",
-          href: "https://wa.me/5537999665545",
-        },
+          text: "Faça seu Pedido Agora",          href: "https://wa.me/5537999665545"},
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bun-with-sesame-table_140725-9347.jpg",
-          imageAlt: "Lanche de chapa tradicional",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/bun-with-sesame-table_140725-9347.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-sandwich-wooden-cutting-board-dark-mix-color-surface_179666-42267.jpg",
-          imageAlt: "Lanche de chapa tradicional",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/tasty-sandwich-wooden-cutting-board-dark-mix-color-surface_179666-42267.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/still-life-delicious-american-hamburger_23-2149637307.jpg",
-          imageAlt: "Lanche de chapa tradicional",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/still-life-delicious-american-hamburger_23-2149637307.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/guy-black-gloves-holds-juicy-cheeseburger-brown-bread_140725-7028.jpg",
-          imageAlt: "Lanche de chapa tradicional",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/guy-black-gloves-holds-juicy-cheeseburger-brown-bread_140725-7028.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-burger-with-melted-cheese-fries_23-2148290669.jpg",
-          imageAlt: "Lanche de chapa tradicional",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/tasty-burger-with-melted-cheese-fries_23-2148290669.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-cook-placing-fried-bacon-slice-ofcheese-while-layering-burger_181624-57745.jpg",
-          imageAlt: "Lanche de chapa tradicional",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-cook-placing-fried-bacon-slice-ofcheese-while-layering-burger_181624-57745.jpg",          imageAlt: "Lanche de chapa tradicional"},
       ]}
     />
   </div>
@@ -100,17 +77,11 @@ export default function LandingPage() {
       description="O Tekim Lanches é tradição em Piumhi. Um lugar conhecido pelo atendimento de qualidade, ambiente acolhedor e lanches de chapa caprichados que conquistam clientes há gerações. Cada pedido é preparado com dedicação, ingredientes selecionados e aquele sabor que já virou referência na cidade."
       bulletPoints={[
         {
-          title: "Tradição Local",
-          description: "Atendendo gerações em Piumhi.",
-        },
+          title: "Tradição Local",          description: "Atendendo gerações em Piumhi."},
         {
-          title: "Qualidade Reconhecida",
-          description: "Ingredientes sempre selecionados.",
-        },
+          title: "Qualidade Reconhecida",          description: "Ingredientes sempre selecionados."},
         {
-          title: "Sabor Marcante",
-          description: "Lanche de chapa como deve ser.",
-        },
+          title: "Sabor Marcante",          description: "Lanche de chapa como deve ser."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/nice-cupcakes-inside-oven_23-2147758422.jpg"
       mediaAnimation="blur-reveal"
@@ -119,46 +90,23 @@ export default function LandingPage() {
 
   <div id="product" data-section="product">
       <ProductCardOne
+      animationType="slide-up"
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
         {
-          id: "1",
-          name: "X-Tudo",
-          price: "Consulte",
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-hamburgers-arrangement_23-2148614059.jpg",
-        },
+          id: "1",          name: "X-Tudo",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-hamburgers-arrangement_23-2148614059.jpg"},
         {
-          id: "2",
-          name: "X-Bacon",
-          price: "Consulte",
-          imageSrc: "http://img.b2bpic.net/free-photo/american-burger-with-chicken-bacon-homemade-barbecue-sauce_2829-13871.jpg",
-        },
+          id: "2",          name: "X-Bacon",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/american-burger-with-chicken-bacon-homemade-barbecue-sauce_2829-13871.jpg"},
         {
-          id: "3",
-          name: "X-Salada",
-          price: "Consulte",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-burger-assortment_23-2148868222.jpg",
-        },
+          id: "3",          name: "X-Salada",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-burger-assortment_23-2148868222.jpg"},
         {
-          id: "4",
-          name: "X-Tudo Especial",
-          price: "Consulte",
-          imageSrc: "http://img.b2bpic.net/free-photo/freshly-baked-burger-bun-with-sesame-sprinkles_140725-8727.jpg",
-        },
+          id: "4",          name: "X-Tudo Especial",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/freshly-baked-burger-bun-with-sesame-sprinkles_140725-8727.jpg"},
         {
-          id: "5",
-          name: "X-Bacon Premium",
-          price: "Consulte",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-ready-be-served-burger-with-cutlery_23-2148290640.jpg",
-        },
+          id: "5",          name: "X-Bacon Premium",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-ready-be-served-burger-with-cutlery_23-2148290640.jpg"},
         {
-          id: "6",
-          name: "X-Salada Fresco",
-          price: "Consulte",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-creative-arrangement-with-hamburger-menu_23-2148614121.jpg",
-        },
+          id: "6",          name: "X-Salada Fresco",          price: "Consulte",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-creative-arrangement-with-hamburger-menu_23-2148614121.jpg"},
       ]}
       title="Nosso Cardápio"
       description="Consulte o valor atualizado no WhatsApp"
@@ -172,23 +120,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "1",
-          icon: Award,
-          title: "Sabor Nº 1",
-          value: "Aprovado",
-        },
+          id: "1",          icon: Award,
+          title: "Sabor Nº 1",          value: "Aprovado"},
         {
-          id: "2",
-          icon: Smile,
-          title: "Satisfação",
-          value: "100%",
-        },
+          id: "2",          icon: Smile,
+          title: "Satisfação",          value: "100%"},
         {
-          id: "3",
-          icon: Flame,
-          title: "Tradição",
-          value: "Referência",
-        },
+          id: "3",          icon: Flame,
+          title: "Tradição",          value: "Referência"},
       ]}
       title="Números de Sucesso"
       description="O que nos faz referência em Piumhi."
@@ -199,16 +138,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Faça seu pedido agora"
       title="Quer um sabor marcante hoje?"
       description="Estamos prontos para preparar o seu lanche de chapa caprichado. Chame no WhatsApp!"
       buttons={[
         {
-          text: "Chamar no WhatsApp",
-          href: "https://wa.me/5537999665545",
-        },
+          text: "Chamar no WhatsApp",          href: "https://wa.me/5537999665545"},
       ]}
     />
   </div>
@@ -217,38 +153,25 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Tekim Lanches",
-          items: [
+          title: "Tekim Lanches",          items: [
             {
-              label: "Rua Getúlio Vargas, 1865",
-              href: "#",
-            },
+              label: "Rua Getúlio Vargas, 1865",              href: "#"},
             {
-              label: "Piumhi - MG",
-              href: "#",
-            },
+              label: "Piumhi - MG",              href: "#"},
           ],
         },
         {
-          title: "Horário",
-          items: [
+          title: "Horário",          items: [
             {
-              label: "Ter a Dom - a partir das 17h",
-              href: "#",
-            },
+              label: "Ter a Dom - a partir das 17h",              href: "#"},
           ],
         },
         {
-          title: "Pedidos",
-          items: [
+          title: "Pedidos",          items: [
             {
-              label: "(37) 3371-4411",
-              href: "tel:3733714411",
-            },
+              label: "(37) 3371-4411",              href: "tel:3733714411"},
             {
-              label: "(37) 99966-5545",
-              href: "https://wa.me/5537999665545",
-            },
+              label: "(37) 99966-5545",              href: "https://wa.me/5537999665545"},
           ],
         },
       ]}

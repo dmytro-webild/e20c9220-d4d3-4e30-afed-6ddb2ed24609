@@ -51,17 +51,17 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bun-with-sesame-table_140725-9347.jpg",          imageAlt: "Lanche de chapa tradicional"},
+          imageSrc: "http://img.b2bpic.net/free-photo/burger-with-bacon-wooden-table_23-2148767937.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-sandwich-wooden-cutting-board-dark-mix-color-surface_179666-42267.jpg",          imageAlt: "Lanche de chapa tradicional"},
+          imageSrc: "http://img.b2bpic.net/free-photo/tasty-cheeseburger-with-lettuce-tomato-onions-dark-background_114579-2475.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/still-life-delicious-american-hamburger_23-2149637307.jpg",          imageAlt: "Lanche de chapa tradicional"},
+          imageSrc: "http://img.b2bpic.net/free-photo/freshly-grilled-hamburger-with-melting-cheese-wooden-surface_123827-23424.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/guy-black-gloves-holds-juicy-cheeseburger-brown-bread_140725-7028.jpg",          imageAlt: "Lanche de chapa tradicional"},
+          imageSrc: "http://img.b2bpic.net/free-photo/gourmet-burger-with-fries-on-black-surface_1150-18968.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-burger-with-melted-cheese-fries_23-2148290669.jpg",          imageAlt: "Lanche de chapa tradicional"},
+          imageSrc: "http://img.b2bpic.net/free-photo/juicy-burger-with-melted-cheese-fries_123827-23512.jpg",          imageAlt: "Lanche de chapa tradicional"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-cook-placing-fried-bacon-slice-ofcheese-while-layering-burger_181624-57745.jpg",          imageAlt: "Lanche de chapa tradicional"},
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-tasty-burger-with-fresh-ingredients_123827-23425.jpg",          imageAlt: "Lanche de chapa tradicional"},
       ]}
     />
   </div>
@@ -80,7 +80,7 @@ export default function LandingPage() {
         {
           title: "Sabor Marcante",          description: "Lanche de chapa como deve ser."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/nice-cupcakes-inside-oven_23-2147758422.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/close-up-chef-preparing-juicy-burger-on-grill_123827-23531.jpg"
       mediaAnimation="blur-reveal"
     />
   </div>
